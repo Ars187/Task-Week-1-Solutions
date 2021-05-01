@@ -6,6 +6,7 @@ for i in range(n):
     mark=float(input())
     l.append([name,mark])
     m.append(mark)
+l.sort()
 m.sort(reverse=True)
 m.pop()
 for name,mark in l:
